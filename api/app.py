@@ -1,8 +1,8 @@
 from flask import Flask, request,jsonify
 from flask_cors import CORS  # type: ignore
-from file.send import send
-from file.adminclass import Admin
-from file.user import user
+from .file.send import send
+from .file.adminclass import Admin
+from .file.user import user
 import os
 
 admin=Admin("user")
