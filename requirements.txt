@@ -1,0 +1,13 @@
+flask
+flask-cors
+gunicorn
+pymongo
+dnspython
+joblib
+numpy
+pandas
+scikit-learn
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-api-python-client
