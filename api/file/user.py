@@ -1,4 +1,4 @@
-from file.database import get_db
+from api.file.database import get_db
 from google.oauth2 import id_token # pyright: ignore[reportMissingImports]
 from google.auth.transport.requests import Request   # type: ignore
 from flask import  jsonify
