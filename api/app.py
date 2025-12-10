@@ -11,12 +11,18 @@ proposal=user("proposal")
 report=user("report")
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=["http://localhost:5173"])  # allow requests from React (localhost:5173)
+CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http://localhost:5173"}})
+ # allow requests from React (localhost:5173)
 
 
 UPLOAD_FOLDER = '../khetmitra-manager/public/document'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+@app.route("/")
+def home():
+    return jsonify({"status": "Backend running successfully 🚀"})
+
 
 @app.route("/verify", methods=["POST"])
 def verify_token():
