@@ -1,9 +1,10 @@
 from pymongo import MongoClient  # type: ignore
 
 def get_db(db_name):
-    client = MongoClient(
-        "mongodb+srv://jeetnathwani660_db_user:YfvCmokx5AZMOX5T@cluster0.mc28jjy.mongodb.net/"
-        "?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true"
+    uri = (
+        "mongodb+srv://jeetnathwani660_db_user:YfvCmokx5AZMOX5T"
+        "@cluster0.mc28jjy.mongodb.net/?retryWrites=true&w=majority"
     )
-    db = client[db_name]
-    return db
+
+    client = MongoClient(uri)
+    return client[db_name]
