@@ -10,7 +10,7 @@ def send(data):
 
     try:
         email = resend.Emails.send({
-            "from": "KhetMitra <onboarding@resend.dev>",  # sandbox sender
+            "from": "onboarding@resend.dev",  # sandbox sender
             "to": [receiver_email],                        # MUST be list
             "subject": "KhetMitra",
             "html": message_html
