@@ -1,16 +1,23 @@
 import resend
+from flask import jsonify
 
-resend.api_key = "re_9PkoGJau_PSgVmtuWtU2cM6pVK2oSv8ct"
+# Your new API key
+resend.api_key = "re_PvGKNSkr_2VvL3vsQnEGu7ajZQ61zQPJr"
 
 def send(data):
+    receiver_email = data["to"]
+    message_html = data["text"]    # full HTML content
+
     try:
         email = resend.Emails.send({
-            "from": "KhetMitra <onboarding@resend.dev>",
-            "to": [data["to"]],                     # MUST be list
+            "from": "KhetMitra <onboarding@resend.dev>",  # sandbox sender
+            "to": [receiver_email],                        # MUST be list
             "subject": "KhetMitra",
-            "html": data["text"]
+            "html": message_html
         })
-        return {"status": "mail sent", "id": email["id"]}
+
+        print("Resend Response:", email)    # Should contain an email ID
+        return {"status": "mail sent"}
 
     except Exception as e:
         print("Email Error:", e)
