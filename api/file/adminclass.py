@@ -19,18 +19,7 @@ class Admin:
 
         return data
     
-        file_path=r"C:\khetmitra\khetmitra-manager\public\user.json"
-        with open(file_path, "r") as file:
-            users = json.load(file)
-
-        for i, user in enumerate(users):
-            if user.get("email") == user_email and user.get("role") == user_role:
-                del users[i]  
-                break 
-
-        with open(file_path, "w") as file:
-            json.dump(users, file, indent=4)
-        return {"message": "User verified and removed!", "data": user}
+        
     
     def status(self,user_mail,status,rol):
             update = self.collection.update_one(
