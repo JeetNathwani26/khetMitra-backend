@@ -1,24 +1,28 @@
-import resend
-from flask import jsonify
+import requests
 
-# Your new API key
-resend.api_key = "re_PvGKNSkr_2VvL3vsQnEGu7ajZQ61zQPJr"
+url = "https://api.emailjs.com/api/v1.0/email/send"
 
-def send(data):
-    receiver_email = data["to"]
-    message_html = data["text"]    # full HTML content
+payload = {
+    "service_id": "service_vizjesg",
+    "template_id": "template_vidl8lb",
+    "user_id": "HgPoef-8Ux5AFV4u5_4lu",
+    "template_params": {
+        "name": "Jeet",
+        "message_html": """
+            <div style="padding:20px; background:#f7f7f7;">
+                <h2 style="color:#ff6600;">Hello Jeet!</h2>
+                <p>This is an <b>HTML formatted</b> message sent from Python.</p>
+                <p style="margin-top:10px;">✔ Supports bold<br>✔ Supports color<br>✔ Supports inline CSS</p>
+            </div>
+        """
+    }
+}
 
-    try:
-        email = resend.Emails.send({
-            "from": "onboarding@resend.dev",  # sandbox sender
-            "to": [receiver_email],                        # MUST be list
-            "subject": "KhetMitra",
-            "html": message_html
-        })
+headers = {
+    "Content-Type": "application/json"
+}
 
-        print("Resend Response:", email)    # Should contain an email ID
-        return {"status": "mail sent"}
+response = requests.post(url, json=payload, headers=headers)
 
-    except Exception as e:
-        print("Email Error:", e)
-        return {"status": "mail not sent"}
+print(response.status_code)
+print(response.text)
