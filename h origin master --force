@@ -1,0 +1,183 @@
+[33mcommit 2e7213ebb162f406ec0782631c73b3cc55183f63[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Sat Dec 13 12:40:57 2025 +0530
+
+    update file
+
+ .gitignore       | 5 [32m+++++[m
+ requirements.txt | 5 [32m++[m[31m---[m
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+
+[33mcommit 56f1385e35c239494d3d2e7f576896df4ea38127[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Sat Dec 13 12:36:40 2025 +0530
+
+    changes file
+
+ api/file/get_token.py | 11 [32m+++++++++++[m
+ api/file/send.py      | 53 [32m+++++++++++++++++++++++++++++++++++[m[31m----------------[m
+ requirements.txt      |  6 [32m+++++[m[31m-[m
+ 3 files changed, 53 insertions(+), 17 deletions(-)
+
+[33mcommit 824595e5d603da887e47708d9cef8a8356159c4b[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Thu Dec 11 20:43:49 2025 +0530
+
+    change file
+
+ api/file/send.py | 42 [32m+++++++++++++++++++[m[31m-----------------------[m
+ 1 file changed, 19 insertions(+), 23 deletions(-)
+
+[33mcommit 4160a69640b794c7a384b258672a42baa65ce78b[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Thu Dec 11 13:47:30 2025 +0530
+
+    change file
+
+ api/file/send.py | 42 [32m+++++++++++++++++++++++[m[31m-------------------[m
+ 1 file changed, 23 insertions(+), 19 deletions(-)
+
+[33mcommit 158b690a6b0beb2cf770ed2762772a133270d87d[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 19:41:40 2025 +0530
+
+    change the file
+
+ api/file/send.py | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit e7adbe374445167ff8ab6016ab326556624d2fa7[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 18:53:07 2025 +0530
+
+    change the file
+
+ api/file/send.py | 17 [32m++++++++++++[m[31m-----[m
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+
+[33mcommit 9960ee53f2baa47627eb73da13999e81058c39e9[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 18:22:59 2025 +0530
+
+    change the file
+
+ api/file/send.py | 9 [32m+++++[m[31m----[m
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+[33mcommit 11b8c0188ae4277c22b3d8c53804537e344f6ad6[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 16:10:19 2025 +0530
+
+    change the file
+
+ api/file/data.py     |  2 [32m+[m[31m-[m
+ api/file/database.py | 20 [32m+++++++++[m[31m-----------[m
+ requirements.txt     |  1 [32m+[m
+ 3 files changed, 11 insertions(+), 12 deletions(-)
+
+[33mcommit d9b324033ff7ed9954fb693c12ca0ac73d13926d[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 16:01:00 2025 +0530
+
+    change the file
+
+ api/file/adminclass.py | 13 [32m+[m[31m------------[m
+ 1 file changed, 1 insertion(+), 12 deletions(-)
+
+[33mcommit 243d0d2327069845ce188afa6ed9b1e7b2f7d7ad[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 12:38:38 2025 +0530
+
+    change the file
+
+ api/file/database.py | 20 [32m+++++++++++++[m[31m-------[m
+ 1 file changed, 13 insertions(+), 7 deletions(-)
+
+[33mcommit dd72dd6af52ec113f689746845228bfa46fabe1b[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 12:20:30 2025 +0530
+
+    change the file
+
+ api/file/database.py | 11 [32m++++++[m[31m-----[m
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+
+[33mcommit ebcbc9fa24b0de7339f39f2e904d98eb136fb793[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 10:05:31 2025 +0530
+
+    change the file
+
+ api/file/database.py | 9 [32m++++++[m[31m---[m
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+[33mcommit 453821cd199c705318e9a66ac6c1315982a574ce[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 09:55:52 2025 +0530
+
+    change the file
+
+ requirements.txt | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 2db82c5d95dda4ebbd9e9a3642482a1baab6af2e[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 09:37:33 2025 +0530
+
+    change the file
+
+ requirements.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit 3910da317da7220d87924ba1fe0093b25cfbf7db[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Wed Dec 10 09:34:26 2025 +0530
+
+    change the file
+
+ api/app.py       |  8 [32m+++++++[m[31m-[m
+ api/file/send.py | 36 [32m++++++++++++[m[31m------------------------[m
+ requirements.txt |  1 [32m+[m
+ 3 files changed, 20 insertions(+), 25 deletions(-)
+
+[33mcommit 1666cf31d8a2a78caa5764e5b9a5bedf06256479[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Tue Dec 9 19:24:54 2025 +0530
+
+    change the and add file
+
+ api/app.py             | 6 [32m+++[m[31m---[m
+ api/file/adminclass.py | 2 [32m+[m[31m-[m
+ api/file/user.py       | 2 [32m+[m[31m-[m
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+[33mcommit c1df3964b7ac3325d2f60bc8b7fe4f36bc95be70[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Tue Dec 9 19:19:23 2025 +0530
+
+    change the and add file
+
+ api/__init__.py      | 0
+ api/app.py           | 6 [32m+++[m[31m---[m
+ api/file/__init__.py | 0
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+[33mcommit b77151782411a36f04a7165eb30e1a663be687c7[m
+Author: jeetnathwani26 <jeetnathwani660@gmail.com>
+Date:   Tue Dec 9 18:40:46 2025 +0530
+
+    add backend file
+
+ .gitignore                            |  16 [32m++++[m
+ Procfile                              |   1 [32m+[m
+ api/app.py                            | 174 [32m++++++++++++++++++++++++++++++++++[m
+ api/file/adminclass.py                |  55 [32m+++++++++++[m
+ api/file/data.py                      |   7 [32m++[m
+ api/file/database.py                  |   6 [32m++[m
+ api/file/send.py                      |  28 [32m++++++[m
+ api/file/user.py                      |  86 [32m+++++++++++++++++[m
+ public/document/Print_Report.aspx.pdf | Bin [31m0[m -> [32m52671[m bytes
+ public/document/mca.pdf               | Bin [31m0[m -> [32m104915[m bytes
+ public/document/unit-4 fsd.pdf        | Bin [31m0[m -> [32m276266[m bytes
+ requirements.txt                      |  13 [32m+++[m
+ 12 files changed, 386 insertions(+)
